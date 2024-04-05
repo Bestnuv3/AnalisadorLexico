@@ -1,0 +1,5 @@
+package Compilador;
+
+public enum Token {
+    NOME_VARIAVEL, INT, LINHA_COMENTARIO, BLOCO_COMENTARIO, BRANCO, PALAVRA_CHAVE, SIMBOLO, ERROR;
+}
